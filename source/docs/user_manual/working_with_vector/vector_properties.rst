@@ -365,6 +365,46 @@ moved up and down, in order to finally get the desired result.
   Data-Defined Override
   ---------------------
 
+.. _symbol_levels:
+
+Symbol Levels
+-------------
+
+When using the Graduated, Categorised or Rule-Based renderers with multiple
+layers symbols, it's sometimes needed to control the drawing order
+of each symbol's layer on the map. You can do this in the
+:menuselection:`advanced --> symbol levels...` dialog (below the list of values, ranges
+or rules).
+
+.. only:: html
+
+   **Figure Symbol levels 1:**
+
+.. _figure_symbol_levels_1:
+
+.. figure:: /static/user_manual/working_with_vector/symbol_levels.png
+   :align: center
+
+   Symbol levels dialog
+
+By default, symbol levels are disabled, meaning that, for each
+feature, all its symbol layers will be rendered together. Enabling symbols
+levels will allow you to define in which rendering pass each symbol layer
+is drawn. Symbol layers with lower values will be rendered first and will
+eventually end up below symbol layers with higher values.
+
+.. only:: html
+
+   **Figure Symbol levels 2:**
+
+.. _figure_symbol_levels_1:
+
+.. figure:: /static/user_manual/working_with_vector/symbol_levels.png
+   :align: center
+
+   Symbol levels dialog
+
+
 
 .. _vectorgeneralmenu:
 
