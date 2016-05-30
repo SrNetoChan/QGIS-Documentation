@@ -105,21 +105,42 @@ All rasters will be saved in another files.
 
 First, open the tools from :menuselection:`Raster -> Align Raster...` and click
 on the |signPlus| :sup:`Add new raster` button to choose one existing raster in
-QGIS. Select an output file to save the raster after the alignment, the
-resampling method and if the tools need to `Rescale values according to the
-cell size`. You can |symbologyEdit| :sup:`Edit file settings` and |signMinus|
-:sup:`Remove an existing file` from the list.
+QGIS. Select the :guilabel:`Input raster layer` from the list of available
+rasters in the project, the :guilabel:`Output raster filename` where to save the
+raster after the alignment, the :guilabel:`Resampling method` and, if the tools
+need to, |checkbox| :guilabel:`Rescale values according to the cell size` and press
+`[Ok]`. You can add several raster layers. You can also |symbologyEdit|
+:sup:`Edit file settings` and |signMinus| :sup:`Remove an existing file`
+from the list.
 
-.. todo: add screenshot
+.. _figure_raster_11:
+
+.. only:: html
+
+   **Figure Raster 11:**
+
+.. figure:: /static/user_manual/working_with_raster/raster_add_to_align_dialog.png
+   :align: center
+
+   Add raster layer to align
 
 Then in the main `Align raster` window, you can choose one or more options:
 
-* Select the `Reference Layer`,
-* Transform into a new `CRS`,
-* Setup a different `Cell size`,
-* Setup a different `Grid Offset`,
-* `Clip to Extent`,
-* `Output Size`,
-* `Add aligned raster to the map canvas`.
+* Select the :guilabel:`Reference Layer`,
+* Transform into a new :guilabel:`CRS`,
+* Setup a different :guilabel:`Cell size`,
+* Setup a different :guilabel:`Grid Offset`,
+* :guilabel:`Clip to Extent`,
+* :guilabel:`Output Size`,
+* :guilabel:`Add input raster layer to the map canvas`.
 
-.. todo: add screenshot
+.. _figure_raster_12:
+
+.. only:: html
+
+   **Figure Raster 12:**
+
+.. figure:: /static/user_manual/working_with_raster/raster_align_dialog.png
+   :align: center
+
+   Align Rasters dialog
