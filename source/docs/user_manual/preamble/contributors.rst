@@ -23,7 +23,7 @@ At any moment, you can `get involved <http://qgis.org/en/site/getinvolved/index.
 .. _doc_authors:
 
 Authors
-========
+=======
 
 Below are listed people who dedicate their time and energy to write, review,
 and update the whole QGIS documentation.
