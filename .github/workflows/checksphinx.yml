@@ -19,5 +19,5 @@ jobs:
       with:
         docs-folder: "./"
         repo-token: "${{ secrets.GITHUB_TOKEN }}"
-        pre-build-command: "apt-get install rsync"
+        pre-build-command: "apt-get install -y rsync"
         build-command: "make html"
