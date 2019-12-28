@@ -19,5 +19,5 @@ jobs:
           pip install -r REQUIREMENTS.txt
     - uses: ammaraskar/sphinx-action@master
       with:
+        docs-folder: "source/"
         repo-token: "${{ secrets.GITHUB_TOKEN }}"
-        args: "./source/"
