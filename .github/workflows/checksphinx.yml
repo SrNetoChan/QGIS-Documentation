@@ -12,7 +12,7 @@ jobs:
       with:
         python-version: 3.7
     - name: Install RSync
-      run: sudo apt-get install rsync
+      run: rsync
     - name: Install dependencies
       run: |
           python -m pip install --upgrade pip
