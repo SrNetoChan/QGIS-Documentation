@@ -12,8 +12,4 @@ jobs:
         docs-folder: "./"
         repo-token: "${{ secrets.GITHUB_TOKEN }}"
         pre-build-command: "apt-get install -y rsync"
-<<<<<<< HEAD
-        build-command: "make html"
-=======
-        build-command: "make html"
->>>>>>> parent of 5415b71e5... Update checksphinx.yml
+        build-command: "make -f venv.mk html"
