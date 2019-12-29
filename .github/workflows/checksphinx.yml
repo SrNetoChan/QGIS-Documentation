@@ -20,4 +20,4 @@ jobs:
         docs-folder: "./"
         repo-token: "${{ secrets.GITHUB_TOKEN }}"
         pre-build-command: "apt-get install -y rsync"
-        build-command: "make html"
+        build-command: "make -f venv.mk html"
