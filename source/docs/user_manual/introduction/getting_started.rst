@@ -51,7 +51,7 @@ Installing on external media
 ----------------------------
 
 It is possible to install QGIS (with all plugins and settings) on a flash drive.
-This is achieved by defining a :ref:`--profiles-path <profiles-path_option>` option
+This is achieved by defining a :ref:`--profiles-path <profiles-path2_option>` option
 that overrides the default :ref:`user profile <user_profiles>` path and forces
 **QSettings** to use this directory, too.
 See section :ref:`env_options` for additional information.
