@@ -52,7 +52,7 @@ changes have been made since it was opened or last saved.
 
 .. _figure_new_project:
 
-.. figure:: img/new_project.png
+.. figure:: img/new_project2.png
    :align: center
  
    Starting a new project in QGIS 
